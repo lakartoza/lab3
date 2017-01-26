@@ -36,7 +36,27 @@ body {
 .jumbotron p {
      color: #6e6e6e;
 }
+.jumbotron.active {
+     text-align: center;
+}
+
+
+.jumbotron p.active {
+     color: #1f6ddd;
+     text-align: center;
+
+}
 
 .project a {
-     text-align: center;
+}
+
+.jumbotron h1 {
+    /*display: block;*/
+    /*margin-left: 300px;*/
+}
+
+.jumbotron img {
+     width: 400px;
+    /*display: block;*/
+     /*float: center;*/
 }
